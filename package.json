@@ -1,0 +1,29 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@truffle/hdwallet-provider": "^1.2.2",
+    "bignumber.js": "^7.2.1",
+    "chai": "^4.1.2",
+    "chai-as-promised": "^7.1.1",
+    "chai-bignumber": "^2.0.2",
+    "crypto-balances": "^2.1.3",
+    "find-parent-dir": "^0.3.0",
+    "openzeppelin-solidity": "^1.12.0",
+    "rlp": "^2.1.0",
+    "solc": "^0.4.24",
+    "solhint": "^1.2.1",
+    "solidity-coverage": "^0.5.11",
+    "truffle": "^4.1.13"
+  }
+}
